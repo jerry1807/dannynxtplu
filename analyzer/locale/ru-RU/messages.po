@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Analyzer Module\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#:
+msgid "Average Engagement Rate Chart"
+msgstr "Динамика вовлеченности"
+
+#:
+msgid "Followings Evolution Chart"
+msgstr "График изменения количества подписок"
+
+#:
+msgid "Followers Evolution Chart"
+msgstr "График изменения количества подписчиков"
+
+#:
+msgid "Analyzer"
+msgstr "Аналитика"
+
+#:
+msgid "Analyzer Module Settings"
+msgstr "Настройки модуля Аналитика"
+
+#:
+msgid "Load More"
+msgstr "Загрузить ещё"
+
+#:
+msgid "Last check date: %s"
+msgstr "Дата последней проверки: %s"
+
+#:
+msgid "Start Date"
+msgstr "С"
+
+#:
+msgid "End Date"
+msgstr "До"
+
+#:
+msgid "Select Dates"
+msgstr "Диапазон дат"
+
+#:
+msgid "Submit"
+msgstr "Выбрать"
+
+#:
+msgid "General"
+msgstr "Главные настройки"
+
+#:
+msgid "Refresh Interval"
+msgstr "Интервал обновления"
+
+#:
+msgid "An account should be verified again after X hours"
+msgstr "Статистика аккаунта будет обновляться каждые X часов"
+
+#:
+msgid "Save"
+msgstr "Сохранить"
+
+#:
+msgid "Private IG"
+msgstr "Закрытый Instagram-аккаунт"
+
+#:
+msgid "Verified IG"
+msgstr "Верифицированный Instagram-аккаунт"
+
+#:
+msgid "Followers"
+msgstr "Подписчики"
+
+#:
+msgid "Following"
+msgstr "Подписки"
+
+#:
+msgid "Uploads"
+msgstr "Публикации"
+
+#:
+msgid "Engagement Rate"
+msgstr "ER"
+
+#:
+msgid "Other Engagements"
+msgstr "Показатели вовлеченности"
+
+#:
+msgid "Engagement"
+msgstr "ER"
+
+#:
+msgid "The engagement rate is the number of active likes / comments on each post"
+msgstr "Вовлечённость (ER) — это показатель того, насколько аудитория вовлечена в контент, то есть, это отражение качества вашей контентной и коммуникационной политики и стратегии"
+
+#:
+msgid "Average Likes"
+msgstr "Лайков (ср.)"
+
+#:
+msgid "Average likes based on the last 10 posts"
+msgstr "Среднее количество лайков на публикацию (на основе 10 последних)"
+
+#:
+msgid "Average Comments"
+msgstr "Комментариев (ср.)"
+
+#:
+msgid "Average comments based on the last 10 posts"
+msgstr "Среднее количество комментариев на публикацию (на основе 10 последних)"
+
+#:
+msgid "Account Statistics Charts"
+msgstr "Динамика подписчиков и подписок"
+
+#:
+msgid "Account Statistics"
+msgstr "Общая информация о аккаунте"
+
+#:
+msgid "Day by day statistics, ups and downs of the account."
+msgstr "Ежедневная динамика изменения основных показателей аккаунта."
+
+#:
+msgid "Date"
+msgstr "Дата"
+
+#:
+msgid "Total Summary"
+msgstr "Итого"
+
+#:
+msgid "Each value in this chart is equal to the Average Engagement Rate of the account in that specific day."
+msgstr "Каждое значение на этом графике равно значению вовлеченности (ER) аккаунта в конкретный день."
+
+#:
+msgid "Highest Engagement Posts"
+msgstr "Лучшие публикации"
+
+#:
+msgid "Top posts from the last 10 pictures"
+msgstr "На основании 10 последних публикаций в аккаунте"
+
+#:
+msgid "Future Projections"
+msgstr "Прогнозируемые показатели"
+
+#:
+msgid "Here you can see the approximated future projections based on your previous days averages"
+msgstr "Здесь вы можете увидеть приблизительный прогноз на будущее изменение показателей аккаунта."
+
+#:
+msgid "Time Until"
+msgstr "Временные интервалы"
+
+#:
+msgid "Current Stats"
+msgstr "Сейчас"
+
+#:
+msgid "We need at least 2 days of data until we can make these projections."
+msgstr "Нам нужно как минимум 2 дня данных, пока мы не сможем сделать эти прогнозы."
+
+#:
+msgid "%s Days"
+msgstr "%s дней"
+
+#:
+msgid "%s Months"
+msgstr "%s месяца(ев)"
+
+#:
+msgid "1 Year"
+msgstr "1 год"
+
+#:
+msgid "1 Year and half"
+msgstr "1,5 года"
+
+#:
+msgid "%s Years"
+msgstr "%s года"
+
+#:
+msgid "Based on an average of"
+msgstr "В среднем"
+
+#:
+msgid "%s followers /day"
+msgstr "%s подписчиков в день"
+
+#:
+msgid "%s uploads /day"
+msgstr "%s публикаций в день"
+
+#:
+msgid "Top Hashtags"
+msgstr "Хэштеги"
+
+#:
+msgid "Top hashtags used in the last 10 posts"
+msgstr "На основании 10 последних публикаций."
+
+#:
+msgid "Used in %s out of 10 posts"
+msgstr "Used in %s out of 10 posts"
+
+#:
+msgid "Top Mentions"
+msgstr "Отметки"
+
+#:
+msgid "Top mentions from the last 10 posts"
+msgstr "На основании 10 последних публикаций."
+
+#:
+msgid "Engagement Rates on Instagram"
+msgstr "Вовлеченность (ER) в Instagram"
+
+#:
+msgid "These are overall / average engagement rates found on Instagram. Statistics based on analysis of more than 1 million influencer profiles."
+msgstr "Это усредненные показатели вовлеченности для аккаунтов в Instagram, основанные на анализе более 1 миллиона Instagram-аккаутов активных пользователей"
+
+#:
+msgid "Others Average Engagement"
+msgstr "Средний показатель для других аккаунтов"
+
+#:
+msgid "Your Profile Engagement"
+msgstr "Ваш показатель вовлеченности"

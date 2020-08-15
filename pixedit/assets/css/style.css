@@ -1,0 +1,33 @@
+  html{
+    height:100% !important;
+  }
+
+  body{
+    height:100% !important;
+    background-color: white;
+  }
+
+  .skeleton{
+    height: -moz-calc(100% - (61px));
+    height: -webkit-calc(100% - (61px));
+    height: calc(100% - (61px));
+  }
+
+  .col{
+    height: 100%;
+  }
+ 
+  iframe {
+    box-sizing: border-box;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    position:absolute;
+    left:0px;
+    top:0px;
+  }
+
+  .cdk-overlay-container {
+    position: fixed;
+    z-index: 100 !important;
+}

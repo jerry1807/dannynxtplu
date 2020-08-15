@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Analyzer Module\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#:
+msgid "Average Engagement Rate Chart"
+msgstr "Average Engagement Rate Chart"
+
+#:
+msgid "Followings Evolution Chart"
+msgstr "Followings Evolution Chart"
+
+#:
+msgid "Followers Evolution Chart"
+msgstr "Followers Evolution Chart"
+
+#:
+msgid "Analyzer"
+msgstr "Analyzer"
+
+#:
+msgid "Analyzer Module Settings"
+msgstr "Analyzer Module Settings"
+
+#:
+msgid "Load More"
+msgstr "Load More"
+
+#:
+msgid "Last check date: %s"
+msgstr "Last check date: %s"
+
+#:
+msgid "Start Date"
+msgstr "Start Date"
+
+#:
+msgid "End Date"
+msgstr "End Date"
+
+#:
+msgid "Select Dates"
+msgstr "Select Dates"
+
+#:
+msgid "Submit"
+msgstr "Submit"
+
+#:
+msgid "General"
+msgstr "General"
+
+#:
+msgid "Refresh Interval"
+msgstr "Refresh Interval"
+
+#:
+msgid "An account should be verified again after X hours"
+msgstr "An account should be verified again after X hours"
+
+#:
+msgid "Save"
+msgstr "Save"
+
+#:
+msgid "Private IG"
+msgstr "Private IG"
+
+#:
+msgid "Verified IG"
+msgstr "Verified IG"
+
+#:
+msgid "Followers"
+msgstr "Followers"
+
+#:
+msgid "Following"
+msgstr "Following"
+
+#:
+msgid "Uploads"
+msgstr "Uploads"
+
+#:
+msgid "Engagement Rate"
+msgstr "Engagement Rate"
+
+#:
+msgid "Other Engagements"
+msgstr "Other Engagements"
+
+#:
+msgid "Engagement"
+msgstr "Engagement"
+
+#:
+msgid "The engagement rate is the number of active likes / comments on each post"
+msgstr "The engagement rate is the number of active likes / comments on each post"
+
+#:
+msgid "Average Likes"
+msgstr "Average Likes"
+
+#:
+msgid "Average likes based on the last 10 posts"
+msgstr "Average likes based on the last 10 posts"
+
+#:
+msgid "Average Comments"
+msgstr "Average Comments"
+
+#:
+msgid "Average comments based on the last 10 posts"
+msgstr "Average comments based on the last 10 posts"
+
+#:
+msgid "Account Statistics Charts"
+msgstr "Account Statistics Charts"
+
+#:
+msgid "Account Statistics"
+msgstr "Account Statistics"
+
+#:
+msgid "Day by day statistics, ups and downs of the account."
+msgstr "Day by day statistics, ups and downs of the account."
+
+#:
+msgid "Date"
+msgstr "Date"
+
+#:
+msgid "Total Summary"
+msgstr "Total Summary"
+
+#:
+msgid "Each value in this chart is equal to the Average Engagement Rate of the account in that specific day."
+msgstr "Each value in this chart is equal to the Average Engagement Rate of the account in that specific day."
+
+#:
+msgid "Highest Engagement Posts"
+msgstr "Highest Engagement Posts"
+
+#:
+msgid "Top posts from the last 10 pictures"
+msgstr "Top posts from the last 10 pictures"
+
+#:
+msgid "Future Projections"
+msgstr "Future Projections"
+
+#:
+msgid "Here you can see the approximated future projections based on your previous days averages"
+msgstr "Here you can see the approximated future projections based on your previous days averages"
+
+#:
+msgid "Time Until"
+msgstr "Time Until"
+
+#:
+msgid "Current Stats"
+msgstr "Current Stats"
+
+#:
+msgid "We need at least 2 days of data until we can make these projections."
+msgstr "We need at least 2 days of data until we can make these projections."
+
+#:
+msgid "%s Days"
+msgstr "%s Days"
+
+#:
+msgid "%s Months"
+msgstr "%s Months"
+
+#:
+msgid "1 Year"
+msgstr "1 Year"
+
+#:
+msgid "1 Year and half"
+msgstr "1 Year and half"
+
+#:
+msgid "%s Years"
+msgstr "%s Years"
+
+#:
+msgid "Based on an average of"
+msgstr "Based on an average of"
+
+#:
+msgid "%s followers /day"
+msgstr "%s followers /day"
+
+#:
+msgid "%s uploads /day"
+msgstr "%s uploads /day"
+
+#:
+msgid "Top Hashtags"
+msgstr "Top Hashtags"
+
+#:
+msgid "Top hashtags used in the last 10 posts"
+msgstr "Top hashtags used in the last 10 posts"
+
+#:
+msgid "Used in %s out of 10 posts"
+msgstr "Used in %s out of 10 posts"
+
+#:
+msgid "Top Mentions"
+msgstr "Top Mentions"
+
+#:
+msgid "Top mentions from the last 10 posts"
+msgstr "Top mentions from the last 10 posts"
+
+#:
+msgid "Engagement Rates on Instagram"
+msgstr "Engagement Rates on Instagram"
+
+#:
+msgid "These are overall / average engagement rates found on Instagram. Statistics based on analysis of more than 1 million influencer profiles."
+msgstr "These are overall / average engagement rates found on Instagram. Statistics based on analysis of more than 1 million influencer profiles."
+
+#:
+msgid "Others Average Engagement"
+msgstr "Others Average Engagement"
+
+#:
+msgid "Your Profile Engagement"
+msgstr "Your Profile Engagement"
