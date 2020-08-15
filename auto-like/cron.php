@@ -301,9 +301,7 @@ function _like_from_target($sc, $Instagram)
         $like_extra_data["hashtag"] = $hashtag;
 
         try {
-            $feed = $Instagram->hashtag->getFeed(
-                $hashtag,
-                $rank_token);
+            $feed = $Instagram->hashtag->getSection(str_replace("#", "", $target->id), $rank_token, 'top', null, $maxId);
         } catch (\Exception $e) {
             // Couldn't get instagram feed related to the hashtag
             // Log data
@@ -317,13 +315,43 @@ function _like_from_target($sc, $Instagram)
             return false;
         }
 
-        $items = $feed->getItems();
-    } else if ($target->type == "location") {
+       // Fix for hashtag processing (March, 2020)
+$section_items = [];
+$section_items_counter = 0;
+$sections = $feed->getSections();
+foreach ($sections as $section) {
+    if ($section->getLayoutType() == "media_grid") {
+        $medias = $section->getLayoutContent()->getMedias();
+        foreach ($medias as $m) {
+            array_push($section_items, $m->getMedia());
+            $section_items_counter++;
+        }
+    }
+}
+$feed->setItems($section_items);
+$feed->setNumResults($section_items_counter);
+$feed = $Instagram->location->getFeed($target->id, 
+$rank_token, 'ranked', null, null, $maxId);
         $like_module = "feed_contextual_location";
         $like_extra_data['location_id'] = $target->id;
 
         try {
-            $feed = $Instagram->location->getFeed(
+            // Fix for hashtag processing (March, 2020)
+$section_items = [];
+$section_items_counter = 0;
+$sections = $feed->getSections();
+foreach ($sections as $section) {
+    if ($section->getLayoutType() == "media_grid") {
+        $medias = $section->getLayoutContent()->getMedias();
+        foreach ($medias as $m) {
+            array_push($section_items, $m->getMedia());
+            $section_items_counter++;
+        }
+    }
+}
+$feed->setItems($section_items);
+$feed->setNumResults($section_items_counter);
+$items = $feed->getItems();
                 $target->id,
                 $rank_token);
         } catch (\Exception $e) {
@@ -339,7 +367,22 @@ function _like_from_target($sc, $Instagram)
             return false;
         }
 
-        $items = $feed->getItems();
+       // Fix for hashtag processing (March, 2020)
+$section_items = [];
+$section_items_counter = 0;
+$sections = $feed->getSections();
+foreach ($sections as $section) {
+    if ($section->getLayoutType() == "media_grid") {
+        $medias = $section->getLayoutContent()->getMedias();
+        foreach ($medias as $m) {
+            array_push($section_items, $m->getMedia());
+            $section_items_counter++;
+        }
+    }
+}
+$feed->setItems($section_items);
+$feed->setNumResults($section_items_counter);
+$items = $feed->getItems();
     } else if ($target->type == "people") {
         $like_module = "profile";
         $like_extra_data['username'] = $target->value;
